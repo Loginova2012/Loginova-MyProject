@@ -66,13 +66,13 @@ public class MainActivity extends AppCompatActivity {
                 work();
             }
         }).start();
-
     }
 
     void showMessage(final String msg){
         TextView msgBox = (TextView) findViewById(R.id.msg);
         msgBox.setText(msgBox.getText() + msg);
     }
+
     public void work(){
         for (int i=122; i>= 97; i--){
             try{
